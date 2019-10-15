@@ -7,10 +7,14 @@
      <a-scene embedded arjs>
         <a-marker-camera preset="hiro">
          
-          <a-entity 
-            obj-model="obj: url(BlueWhale/BlueWhale.obj); 
-            mtl: url(BlueWhale/BlueWhale.mtl)">
-        </a-entity>
+
+  <a-assets>
+    <a-asset-item id="whale-obj" src="/BlueWhale/BlueWhale.obj"></a-asset-item>
+    <a-asset-item id="whale-mtl" src="/BlueWhale/BlueWhale.mtl"></a-asset-item>
+  </a-assets>
+
+  <a-entity obj-model="obj: #whale-obj; mtl: #whale-mtl"></a-entity>
+
          
           
           </a-marker-camera>
