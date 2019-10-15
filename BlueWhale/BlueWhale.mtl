@@ -1,6 +1,6 @@
 # Blender3D MTL File: 
 # Material Count: 1
-newmtl Default_Standard_bluewhale_adult_f.dds
+newmtl BlueWhale.dds
 Ns 76.470588
 Ka 0.000000 0.000000 0.000000
 Kd 0.800000 0.800000 0.800000
@@ -8,6 +8,6 @@ Ks 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 1
-map_Kd bluewhale_adult_f.dds
+map_Kd BlueWhale.dds
 
 
